@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <ImageGallary msg="Which is my cat"/>
+    <ImageGallary msg="Which of these are cat ?"/>
   </div>
 </template>
 
@@ -22,6 +22,6 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin: 60px 200px 0px 200px;
+  margin: 20px 200px 0px 200px;
 }
 </style>
