@@ -126,9 +126,7 @@ export default {
           maxValue = currentImage;
         }
       }
-      return this.hasNoSelection()
-        ? `./img/robot.jpg`
-        : `./img/${maxValue.name}`;
+      return this.hasNoSelection() ? `./img/12.jpg` : `./img/${maxValue.name}`;
     }
   }
 };
